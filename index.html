@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+
+  <body class="d-flex align-items-center flex-column">
+
+    <div class="card_container rounded-3 d-flex align-items-center">
+
+      <div class="product_image">
+        <img class="desktop-image" src="images/image-product-desktop.jpg" alt="perfume image">
+      </div>
+
+      <div class="product_info p-4">
+        <h6 class="text-uppercase">Perfume</h6>
+
+        <h2 class="mt-3 mb-3">Gabrielle<br> Essence Eau<br> De Parfum</h2>
+
+        <p class="text-start mb-3 w-100">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+
+        <div class="product_price d-flex align-items-center mb-3">
+          <span class="price me-4">
+            $149.99
+          </span>
+          <span class="old_price">
+            $169.99
+          </span>
+        </div>
+
+        <button class="border-0 rounded p-3 w-100 text-light">
+          <img class="me-2" src="images/icon-cart.svg" alt="cart image">
+          Add to Cart
+        </button>
+      </div>
+
+    </div>
+    
+    <div class="attribution pb-2 mt-3">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
